@@ -53,7 +53,7 @@ VITE_FIREBASE_AUTH_DOMAIN=your_domain
 # Start the dev server
 npm run dev
 
-### Backend Setup
+### 🔹 Frontend Setup
 # Navigate to backend directory
 cd server
 
@@ -67,12 +67,4 @@ JWT_SECRET=your_jwt_secret
 
 # Start the backend server
 npm run dev
-
-
-🌐 Live Demo
-Coming soon...
-
-
-
-
 
