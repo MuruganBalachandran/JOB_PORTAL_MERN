@@ -52,3 +52,27 @@ VITE_FIREBASE_AUTH_DOMAIN=your_domain
 
 # Start the dev server
 npm run dev
+
+### Backend Setup
+# Navigate to backend directory
+cd server
+
+# Install dependencies
+npm install
+
+# Create a .env file with the following
+PORT=5000
+MONGODB_URI=your_mongodb_uri
+JWT_SECRET=your_jwt_secret
+
+# Start the backend server
+npm run dev
+
+
+🌐 Live Demo
+Coming soon...
+
+
+
+
+
