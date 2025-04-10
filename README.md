@@ -46,25 +46,27 @@ cd client
 npm install
 
 # Create a .env file and add your Firebase config
-VITE_FIREBASE_API_KEY=your_key
-VITE_FIREBASE_AUTH_DOMAIN=your_domain
-...
+VITE_FIREBASE_API_KEY=your_api_key
+VITE_FIREBASE_AUTH_DOMAIN=your_auth_domain
+VITE_FIREBASE_PROJECT_ID=your_project_id
+VITE_FIREBASE_STORAGE_BUCKET=your_storage_bucket
+VITE_FIREBASE_MESSAGING_SENDER_ID=your_messaging_id
+VITE_FIREBASE_APP_ID=your_app_id
 
-# Start the dev server
+# Start the development server
 npm run dev
 
-### 🔹 Frontend Setup
+### 🔹 Backedn Setup
 # Navigate to backend directory
 cd server
 
 # Install dependencies
 npm install
 
-# Create a .env file with the following
+# Create a .env file with the following environment variables
 PORT=5000
-MONGODB_URI=your_mongodb_uri
+MONGODB_URI=your_mongodb_connection_string
 JWT_SECRET=your_jwt_secret
 
 # Start the backend server
 npm run dev
-
